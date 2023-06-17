@@ -1,4 +1,7 @@
 #include <stdio.h>
+/*
+ * This is a code 
+ */
 int main(void)
 {
 	int n, m, l;
