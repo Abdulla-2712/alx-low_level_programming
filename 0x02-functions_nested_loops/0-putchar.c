@@ -1,4 +1,5 @@
 #include "main.h"
+#ifndef DICTIONARY_H
 /**
  * main - print _putchar
  * is written by mbah
