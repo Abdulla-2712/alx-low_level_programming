@@ -1,4 +1,5 @@
 #define "main_h"
+#ifndef DICTIONARY_H
 
 int _putchar(char);
 void print_alphabet(void);
