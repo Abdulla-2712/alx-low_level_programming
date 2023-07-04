@@ -1,5 +1,8 @@
 #include <stdio.h>
-/*This prints a sentence*/
+/*
+ *main
+ *Return is 0
+ */
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
