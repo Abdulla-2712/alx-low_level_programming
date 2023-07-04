@@ -1,5 +1,8 @@
 #include <stdio.h>
-/*this print the size of vars*/
+/**
+ *main - Entry
+ *Return: Always 0 (Success)
+ */
 int main(void)
 {
 char c;
