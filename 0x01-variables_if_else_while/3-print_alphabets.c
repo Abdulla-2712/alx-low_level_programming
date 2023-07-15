@@ -20,7 +20,6 @@ int main(void)
 	putchar(a);
 	a++;
 	}
-	a = 36;
-	printf("%c\n", a);
+	printf("\n");
 	return (0);
 }
