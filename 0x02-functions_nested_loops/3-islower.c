@@ -1,16 +1,22 @@
-#include "main.h"
-
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+#include <ctype.h>
 /**
- * _islower - check if char is lowercase
- * @c: is the char to be checked
- * Return: 1 if char is lowercase, otherwise 0.
+ *main - entry
+ *Return: =0
  */
-
-int _islower(int c)
+int main(void)
 {
-	if (c >= 'a' && c <= 'z')
-		return (1);
-	else
-		return (0);
-}
+	int c;
 
+	if (islower(c) == 0)
+	{
+		putchar(48);
+	}
+	else
+	{
+		putchar(49);
+	}
+	return (0);
+}

@@ -1,12 +1,22 @@
-#include "main.h"
-
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+#include <ctype.h>
 /**
- * _isalpha - checks for alphabetic character
- * @c: the character to be checked
- * Return: 1 if c is a letter, 0 otherwise
+ *main - entry
+ *Return: =0
  */
-int _isalpha(int c)
+int main(void)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
-}
+	int c;
 
+	if (isalpha(c) != 0)
+	{
+		putchar(48);
+	}
+	else
+	{
+		putchar(49);
+	}
+	return (0);
+}

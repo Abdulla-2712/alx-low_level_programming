@@ -1,16 +1,19 @@
-#include "main.h"
-
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
- * print_alphabet - print all alphabet in lowercase
+ *main - entry
+ *Return: =0
  */
-
-void print_alphabet(void)
+int main(void)
 {
-	char letter;
+	int x = 97;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-
-	_putchar('\n');
+	while (x < 123)
+	{
+		putchar(x);
+		x++;
+	}
+	putchar('\n');
+	return (0);
 }
-
